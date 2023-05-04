@@ -1,0 +1,32 @@
+* { margin: 0; padding: 0; }
+
+body {
+  height: 100vh;
+  background: linear-gradient(to top, red, purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#carrossel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 80%;
+  height: 200px;
+
+}
+
+img {
+  display: none;
+  width: 200px;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 100px;
+}
+
+img.active {
+  display: block;
+  text-align: center;
+}
